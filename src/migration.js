@@ -50,6 +50,10 @@ module.exports = class Migration {
       return this.options.migrations.customResolver(this.path);
     }
 
+    if (this.path.match(/\.ts$/)) {
+      helper.resolve('ts-node/register');
+    }
+
     if (this.path.match(/\.coffee$/)) {
       // 2.x compiler registration
       helper.resolve('coffeescript/register') ||
