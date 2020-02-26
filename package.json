@@ -12,7 +12,8 @@
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "bluebird": "^3.5.3",
-    "ts-node": "^8.6.2"
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -31,13 +32,12 @@
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "mocha": "^5.2.0",
     "sequelize": "^4.41.2",
     "sinon": "^7.1.1",
     "sinon-chai": "^3.2.0",
     "sqlite3": "^4.0.4",
-    "typescript": "^3.1.6",
     "uuid": "^3.3.2"
   },
   "scripts": {
@@ -62,9 +62,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sequelize/umzug/issues"
+    "url": "https://github.com/wildcookie007/umzug/issues"
   },
-  "homepage": "https://github.com/sequelize/umzug",
+  "homepage": "https://github.com/wildcookie007/umzug",
   "engines": {
     "node": ">=6.0.0"
   }
