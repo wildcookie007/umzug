@@ -3,7 +3,7 @@ import { resolve, dirname, join } from 'path';
 import { expect } from 'chai';
 import Sequelize from 'sequelize';
 import typescript from 'typescript';
-import coffeescript from 'coffee-script';
+import coffeescript from 'coffeescript';
 import helper from '../helper';
 import Umzug from '../../src';
 import uuid from 'uuid/v4';
