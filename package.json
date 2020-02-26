@@ -1,6 +1,6 @@
 {
   "name": "umzug",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Framework agnostic migration tool for Node.JS",
   "keywords": [
     "migrate",
@@ -47,7 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/umzug.git"
+    "url": "https://github.com/wildcookie007/umzug.git"
   },
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [

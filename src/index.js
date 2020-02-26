@@ -66,7 +66,7 @@ module.exports = class Umzug extends EventEmitter {
       this.options.migrations = {
         params: [],
         path: path.resolve(process.cwd(), 'migrations'),
-        pattern: /^\d+[\w-]+\.js$/,
+        pattern: /^\d+[\w-]+\.[jt]s$/,
         traverseDirectories: false,
         wrap: fun => fun,
         ...this.options.migrations,
